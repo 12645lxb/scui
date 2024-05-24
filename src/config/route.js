@@ -34,18 +34,18 @@ const routes = [
             title: "数据集",
             icon: "el-icon-info-filled",
             type: "menu",
-            // role: ["SA"]
+            role: ["SA"]
         },
         component: "dataset/index"
     },
     {
         path: "/project/index",
-        name: "dataset",
+        name: "project",
         meta: {
             title: "项目",
             icon: "el-icon-info-filled",
             type: "menu",
-            // role: ["SA"]
+            role: ["SA"]
         },
         component: "project/index"
     },
